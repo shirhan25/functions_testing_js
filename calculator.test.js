@@ -154,7 +154,7 @@ describe('even', () => {
     expected = false;
     actual = even(7);
     expect(actual).toBe(expected);
-  });
+  }); 
   
 });
 
