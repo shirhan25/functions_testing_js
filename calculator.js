@@ -10,7 +10,9 @@ const multiply = function(number1,number2) {
     return number1 * number2
 };
 
-const divide = null;
+const divide = function(number1,number2){
+    return number1/number2
+};
 
 const modulus = null;
 
