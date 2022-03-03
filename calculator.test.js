@@ -160,4 +160,18 @@ describe('even', () => {
 
 describe('odd', () => {
 
+  test('can check if odd number is odd', () => {
+    expected = true;
+    actual = odd(7);
+    expect(actual).toBe(expected);
+  });
+
+  test('can check if even number returns false', () => {
+    expected = false;
+    actual = odd(4);
+    expect(actual).toBe(expected);
+  });
+
+
+
 });
