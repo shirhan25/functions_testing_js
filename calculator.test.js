@@ -113,7 +113,7 @@ describe('divide', () => {
   });
 
   test('can divide by zero', () => {
-    expected = Infinity; // Dividing by 0 in JS yields Infinity
+    expected = Infinity; // Dividing by 0 in JS yields Infinity. Instead of infinity we can put NaN too (but avoid using it!)
     actual = divide(10000,0);
     expect(actual).toBe(expected); 
   });
