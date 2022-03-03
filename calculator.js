@@ -18,7 +18,14 @@ const modulus = function(number1, number2) {
     return number1 % number2
 };
 
-const even = null;
+const even = function(number){
+    isEven= false;
+    //divides by 2 with no remainder 
+    if(number % 2 == 0){
+     isEven=true;
+     return isEven
+    }
+};
 
 const odd = null;
 

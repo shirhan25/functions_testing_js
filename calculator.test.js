@@ -122,10 +122,31 @@ describe('divide', () => {
 
 describe('modulus', () => {
 
+  test('can get remainder when dividing two positive numbers', () => {
+    expected = 1;
+    actual = modulus(11, 5);
+    expect(actual).toBe(expected);
+  });
+
+  test('can get remainder when dividing two positive large numbers', () => {
+    expected = 3;
+    actual = modulus(134888, 5);
+    expect(actual).toBe(expected);
+  });
+
+  test('can get remainder when dividing two negative large numbers', () => {
+    expected = -2087;
+    actual = modulus(-1539372, -11735);
+    expect(actual).toBe(expected);
+  });
+
+
 });
 
 describe('even', () => {
 
+
+  
 });
 
 describe('odd', () => {
