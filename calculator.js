@@ -14,7 +14,9 @@ const divide = function(number1,number2){
     return number1/number2
 };
 
-const modulus = null;
+const modulus = function(number1, number2) {
+    return number1 % number2
+};
 
 const even = null;
 
