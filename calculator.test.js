@@ -144,8 +144,17 @@ describe('modulus', () => {
 });
 
 describe('even', () => {
+  test('can check if even number is even', () => {
+    expected = true;
+    actual = even(4);
+    expect(actual).toBe(expected);
+  });
 
-
+  test('can check if odd number returns false', () => {
+    expected = false;
+    actual = even(7);
+    expect(actual).toBe(expected);
+  });
   
 });
 

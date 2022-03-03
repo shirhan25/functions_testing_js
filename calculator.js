@@ -25,9 +25,20 @@ const even = function(number){
      isEven=true;
      return isEven
     }
+    else {return isEven};
 };
 
-const odd = null;
+const odd = function(number){
+    isOdd= false;
+    //If there is a remainder when dividing, then num is odd
+    if(number % 2 != 0){
+        isOdd=true;
+        return isOdd
+    }
+    else {return isOdd};
+};
+
+
 
 module.exports = { 
     sum, 
